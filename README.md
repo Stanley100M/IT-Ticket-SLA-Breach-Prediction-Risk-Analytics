@@ -20,9 +20,52 @@ The dataset contains service desk tickets with information including:
 - SLA Hours
 - Ticket Open Times
 
+## Feature Engineering
 
+Features created include:
 
+- Resolution Hours
+- Hour Opened
+- Day of Week
+- Ticket Age
+- SLA Utilization Ratio
+- Analyst Workload
 
+## Models Evaluated
+- Logistic Regression
+- Random Forest
+- XGBoost
+
+## Evaluation Metrics
+- Precision
+- Recall
+- F1 Score
+- ROC-AUC
+
+## Explainable AI
+
+SHAP was used to explain model predictions and identify key drivers of SLA breaches.
+
+## Dashboard Features
+- High-Risk Ticket Monitoring
+- Breach Probability Scoring
+- Feature Importance Visualization
+- SLA Performance Metrics
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-Learn
+- XGBoost
+- SHAP
+- Streamlit
+- Matplotlib
+- Seaborn
+
+## Results
+
+The best-performing model achieved strong recall and precision, enabling proactive identification of tickets at risk of SLA breach.
 
 
 
