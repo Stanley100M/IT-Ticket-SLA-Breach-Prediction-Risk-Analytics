@@ -40,7 +40,8 @@ Features created include:
 - Precision
 - Recall
 - F1 Score
-- ROC-AUC
+- ROC_AUC_sc0re
+- Confusion matrix
 
 ## Explainable AI
 
