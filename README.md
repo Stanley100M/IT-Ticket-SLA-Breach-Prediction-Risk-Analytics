@@ -1,7 +1,7 @@
 # IT-Ticket-SLA-Breach-Prediction-Risk-Analytics
 
 ## Overview
-Service Level Agreement (SLA) compliance is a critical performance metric for IT service desks. Delayed ticket resolution can negatively impact business operations, customer satisfaction, and service quality...
+Service Level Agreement (SLA) compliance is a critical performance metric for IT service desks. Delayed ticket resolution can negatively impact business operations, customer satisfaction, and service quality.
 
 This project develops a predictive analytics solution that identifies tickets at risk of breaching SLA targets before resolution. Using historical service desk data, multiple classification models—including Logistic Regression, Random Forest, and XGBoost—are trained to predict breach likelihood and generate risk scores for incoming tickets.
 
